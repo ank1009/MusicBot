@@ -2754,7 +2754,7 @@ class MusicBot(discord.Client):
             args_expected = []
             for key, param in list(params.items()):
 
-                # parse (*args) as a list of args
+                # parse (*args) as a list of arg
                 if param.kind == param.VAR_POSITIONAL:
                     handler_kwargs[key] = args
                     params.pop(key)
