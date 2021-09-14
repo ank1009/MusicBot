@@ -120,4 +120,4 @@ class Serializable:
 
     @classmethod
     def _deserialize(cls, raw_json, **kwargs):
-        raise NotImplementedError
+        raise NotImplementedErro
