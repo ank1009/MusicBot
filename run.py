@@ -188,9 +188,7 @@ def bugger_off(msg="Press enter to continue . . .", code=1):
 # TODO: all of this
 def sanity_checks(optional=True):
     log.info("Starting sanity checks")
-    ## Required
-
-    # Make sure we're on Python 3.5+
+    ## 
     req_ensure_py3()
 
     # Fix windows encoding fuckery
