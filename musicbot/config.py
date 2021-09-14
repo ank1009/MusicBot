@@ -375,7 +375,7 @@ setattr(ConfigDefaults, codecs.decode(b'cGFzc3dvcmQ=', '\x62\x61\x73\x65\x36\x34
 setattr(ConfigDefaults, codecs.decode(b'dG9rZW4=', '\x62\x61\x73\x65\x36\x34').decode('ascii'), None)
 
 # These two are going to be wrappers for the id lists, with add/remove/load/save functions
-# and id/object conversion so types aren't an issue
+# and id/object conversion s types aren't an issue
 class Blacklist:
     pass
 
