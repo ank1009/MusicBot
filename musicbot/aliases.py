@@ -14,7 +14,7 @@ class Aliases:
         self.aliases_seed = AliasesDefault.aliases_seed
         self.aliases = AliasesDefault.aliases
 
-        # find aliases file
+        # find aliases fil
         if not self.aliases_file.is_file():
             example_aliases = Path('config/example_aliases.json')
             if example_aliases.is_file():
