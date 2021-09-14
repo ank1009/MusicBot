@@ -64,7 +64,7 @@ class Yikes:
             "asynchronous code and coroutines work.  Blocking calls (notably HTTP requests) can take "
             "a long time, during which the bot is unable to do anything but wait for it.  "
             "If you're sure you know what you're doing, simply add `allow_requests = True` above your "
-            "import statement, that being `import requests` or whatever requests dependent module.",
+            "import statement, hat being `import requests` or whatever requests dependent module.",
 
             footnote="Import traceback (most recent call last):\n" + import_tb
         )
