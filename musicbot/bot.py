@@ -98,7 +98,7 @@ class MusicBot(discord.Client):
         if self.blacklist:
             log.debug("Loaded blacklist with {} entries".format(len(self.blacklist)))
 
-        # TODO: Do these properly
+        # TODO: Do these propery
         ssd_defaults = {
             'last_np_msg': None,
             'auto_paused': False,
