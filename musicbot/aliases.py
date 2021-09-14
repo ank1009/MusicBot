@@ -37,7 +37,7 @@ class Aliases:
                     "Ensure your {} is a valid json file and restart the bot.".format(str(self.aliases_file))
                 )
 
-        # construct
+        # constru
         for cmd, aliases in self.aliases_seed.items():
             if not isinstance(cmd, str) or not isinstance(aliases, list):
                 raise HelpfulError(
