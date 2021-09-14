@@ -469,5 +469,5 @@ def check_stderr(data:bytes):
 # This is also how I fix the format checking issue for now
 # ffprobe -v quiet -print_format json -show_format stream
 
-# Normalization filter
+# Normalization filte
 # -af dynaudnorm
